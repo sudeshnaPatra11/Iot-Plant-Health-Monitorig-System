@@ -113,9 +113,6 @@ The supplied report lists:
  
 
 ### My Contribution
-
-Add your exact individual contribution here. Do not imply that you personally developed every part of the group project.
-
 Suggested categories, **only if accurate**:
 - Hardware / sensor integration
 - Data acquisition
