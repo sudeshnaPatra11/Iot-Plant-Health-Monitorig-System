@@ -16,8 +16,7 @@ The documented system monitors:
 - Soil pH
 - CO2 concentration
 
-The report specifies ATmega328P sensor nodes, Zigbee communication, a Raspberry Pi 4 gateway, AWS IoT Core + InfluxDB, and Grafana/React Native visualization. See the architecture on pages 5–6 of the supplied report. fileciteturn9file0L86-L126
-
+The report specifies ATmega328P sensor nodes, Zigbee communication, a Raspberry Pi 4 gateway, AWS IoT Core + InfluxDB, and Grafana/React Native visualization. See the architecture on pages 5–6 of the supplied report.
 ## System Architecture
 
 ```text
@@ -41,11 +40,10 @@ Application Layer
   Grafana / Mobile App / Alerts / Reports
 ```
 
-The report describes sensor readings being collected every five minutes, transmitted via Zigbee, preprocessed at the gateway, published through MQTT, and then validated, aggregated and stored in the cloud. fileciteturn9file0L164-L181
-
+The report describes sensor readings being collected every five minutes, transmitted via Zigbee, preprocessed at the gateway, published through MQTT, and then validated, aggregated and stored in the cloud.
 ## Sensor Node
 
-According to the report, each sensor node uses an ATmega328P at 8 MHz, Zigbee IEEE 802.15.4 at 2.4 GHz, a 3.7 V 2000 mAh Li-ion battery and a 5 V / 100 mA solar panel. fileciteturn9file0L125-L129
+According to the report, each sensor node uses an ATmega328P at 8 MHz, Zigbee IEEE 802.15.4 at 2.4 GHz, a 3.7 V 2000 mAh Li-ion battery and a 5 V / 100 mA solar panel.
 
 The documented sensor set is:
 
@@ -58,7 +56,7 @@ The documented sensor set is:
 | Soil pH | SEN-0169 |
 | CO2 | SCD41 |
 
-fileciteturn9file0L209-L216
+
 
 ## Alert System
 
@@ -76,13 +74,13 @@ SMS / Email / Push / Dashboard
 Action logged
 ```
 
-fileciteturn9file0L223-L230
 
-Default thresholds in the report include soil moisture 35–75% VWC warning range, temperature 15–32 °C, humidity 50–85% RH, pH 5.8–7.2, and CO2 400–1200 ppm. fileciteturn9file0L231-L243
+
+Default thresholds in the report include soil moisture 35–75% VWC warning range, temperature 15–32 °C, humidity 50–85% RH, pH 5.8–7.2, and CO2 400–1200 ppm. 
 
 ## Machine Learning
 
-The project report states that an integrated ML module predicted moisture-stress events with 91% accuracy up to four hours in advance. fileciteturn9file0L52-L56
+The project report states that an integrated ML module predicted moisture-stress events with 91% accuracy up to four hours in advance. 
 
 **Important:** the original model-training code is currently unavailable. This repository therefore does **not** invent or recreate the training implementation, and the 91% figure is documented as a **reported project result**, not as an independently reproduced result.
 
@@ -102,7 +100,7 @@ The supplied report gives these results:
 | Sensor uptime | N/A | 99.2% | — |
 | False alert rate | N/A | 5.3% | — |
 
-These are **figures reported in the supplied group report**; this GitHub repository does not claim independent reproduction. fileciteturn9file0L321-L338
+These are **figures reported in the supplied group report**; this GitHub repository does not claim independent reproduction.
 
 ## Group Project
 
@@ -112,7 +110,7 @@ The supplied report lists:
 - Ruchika Sen
 - Sudeshna Patra
 
-Faculty: Kritika Bansal. fileciteturn9file0L11-L16
+ 
 
 ### My Contribution
 
@@ -141,7 +139,7 @@ The supplied report recommends:
 - ERP/market integration
 - Carbon-footprint tracking
 
-fileciteturn9file0L340-L350
+
 
 ## Technologies
 
@@ -159,4 +157,5 @@ IoT-Plant-Monitoring-System/
 │   └── README.md
 └── figures/
     └── README.md
+
 ```
